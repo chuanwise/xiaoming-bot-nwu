@@ -1,0 +1,7 @@
+{
+  "@class": "com.taixue.xiaoming.bot.core.plugin.PluginPropertyImpl",
+  "main": "com.chuanwise.xiaoming.bot.nwu.NwuPlugin",
+  "name": "nwu",
+  "version": "1.0.TEST",
+  "author": "Chuanwise"
+}

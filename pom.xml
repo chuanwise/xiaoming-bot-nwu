@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.chuanwise.xiaoming.bot.nwu</groupId>
+    <artifactId>xiaoming-bot-nwu</artifactId>
+    <version>1.0.TEST</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.15</version>
+        </dependency>
+
+        <!--使用小明核心开发插件-->
+        <dependency>
+            <groupId>com.taixue.xiaoming.bot</groupId>
+            <artifactId>xiaoming-bot-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
