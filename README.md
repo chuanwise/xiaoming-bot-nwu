@@ -50,4 +50,3 @@
 * `weightedAverageCreadit`：加权平均学分
 * `ranking`：年级排名
 * `failCourseNumber`：不及格科目数
-```
