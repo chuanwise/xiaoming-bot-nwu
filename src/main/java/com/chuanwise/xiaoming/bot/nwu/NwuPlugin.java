@@ -8,6 +8,10 @@ import com.taixue.xiaoming.bot.core.plugin.XiaomingPluginImpl;
 
 import java.io.File;
 
+/**
+ * 西北大学插件
+ * @author Chuanwise
+ */
 public class NwuPlugin extends XiaomingPluginImpl {
     public static NwuPlugin INSTANCE;
 
@@ -34,6 +38,7 @@ public class NwuPlugin extends XiaomingPluginImpl {
         getDataFolder().mkdirs();
         loadData();
 
+        // 注册处理器交互器
         getXiaomingBot().getCommandManager().register(nwuCommandExecutor, this);
         getXiaomingBot().getInteractorManager().register(searchScoreInteractor, this);
     }
